@@ -1,0 +1,7 @@
+FROM php:7.1-cli
+
+# Install extensions
+# Install composer
+# Composer install dependencies
+# Warmup cache
+# Deploy to ic with rsync and chown cache
