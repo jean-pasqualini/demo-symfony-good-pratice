@@ -5,7 +5,7 @@ services:
     container_name: code
     command: /bin/bash /code.sh
     volumes:
-      - $ICSPACE:/app
+      - /var/www:/app
       - ./code.sh:/code.sh
   frontend:
     image: nginx:latest
